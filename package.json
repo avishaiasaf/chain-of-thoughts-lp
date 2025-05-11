@@ -4,10 +4,11 @@
   "private": true,
   "homepage": "https://avishaiasaf.github.io/chain-of-thoughts-lp",
   "scripts": {
-   "start": "next start",
+    "dev": "next dev",
+    "start": "next start",
     "build": "next build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "node scripts/deploy.js"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -23,6 +24,7 @@
     "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
-    "@eslint/eslintrc": "^3"
+    "@eslint/eslintrc": "^3",
+    "gh-pages": "^6.1.1"
   }
 }

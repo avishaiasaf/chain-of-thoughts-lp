@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chain of Thoughts - AI Courses Landing Page
 
-## Getting Started
+This is a landing page for Chain of Thoughts, a company offering AI courses about LLM models, AI tools, and automation.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit the live site: [https://avishaiasaf.github.io/Chain-of-Thoughts](https://avishaiasaf.github.io/Chain-of-Thoughts)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Modern, responsive design with smooth scrolling
+- Course catalog showcase
+- Instructor profiles
+- Video demonstrations
+- Testimonials section
+- FAQ section
+- Contact form
+- Dark mode support
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Local Development
 
-## Learn More
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/avishaiasaf/Chain-of-Thoughts.git
+   cd Chain-of-Thoughts
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Manual Deployment to GitHub Pages
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Build the project:
+   ```bash
+   npm run build
+   ```
+
+2. Deploy to GitHub Pages:
+   ```bash
+   npm run deploy
+   ```
+
+### Automatic Deployment
+
+The site will automatically deploy to GitHub Pages when changes are pushed to the main branch, thanks to the GitHub Actions workflow.
+
+## Project Structure
+
+- `src/app/page.tsx`: Main landing page component
+- `src/app/layout.tsx`: Layout component with metadata
+- `public/`: Static assets like images and icons
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## License
+
+MIT
