@@ -4,8 +4,8 @@
   "private": true,
   "homepage": "https://avishaiasaf.github.io/chain-of-thoughts-lp",
   "scripts": {
-   "start": "react-scripts start",
-    "build": "react-scripts build",
+   "start": "next start",
+    "build": "next build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
