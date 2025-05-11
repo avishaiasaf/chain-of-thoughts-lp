@@ -2,11 +2,12 @@
   "name": "landing-page",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://avishaiasaf.github.io/chain-of-thoughts-lp",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+   "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^19.0.0",
